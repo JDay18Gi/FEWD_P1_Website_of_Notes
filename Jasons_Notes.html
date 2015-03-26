@@ -145,7 +145,9 @@
 		<h2 id="lesson3">Lesson 3: Adding CSS Style</h2>
 			<div>
 					<ul class="list">
-					<li>Avoid repetition in your code!!!</li>
+					<li>Avoid repetition in your code!!! </li>
+					<li>A good way to explain the “do not repeat yourself” principle for coding is when you need to make a right turn and instead of turning right you make three left turns. You eventually get to the same direction but you didn’t need to do all that extra work. Repetition wastes time, space, slows down websites, and can even create more vulnerability to malicious attack.</li>
+					<li>CSS can help avoid this repetition through the creationg of classes and attributes that can be appied across many different sections of the website.</li>
 					</ul>
 		    <br>
 		    </div>
@@ -169,6 +171,140 @@
 		  	<br>
 	</div>
 
+
+
+<div class="lesson">
+		<h2 id="lesson4">Lesson 4: Intro to "Serious" Programming</h2>
+			<div>
+					<ul class="list">
+					<li>A Computer is a universal machine that can be programmed to do almost aything.</li>
+					</ul>
+		    <br>
+		    </div>
+		   
+		    <p>
+		   		<h3>Computer Programming</h3>
+		   		<ul class="list">
+				    <li>Computers can do almost anything but they need instructions. These instructions are the programs.
+				    <li> Computers use compilers or interpreters (programs that know hot to read different coding languages.)
+				    <li>Python is an interpreter and the Python language is interpreted to make sense to the computer so it knows what to do.
+				    <li>There are 5 ways to think like a programmer:</li>
+				    	<p class='listo'>1. Procedural Thinking</p>
+				    	<p class='listo'>2. Technological Empathy</p>
+				    	<p class='listo'>3. Abstract Thinking</p>
+				    	<p class='listo'>4. Debugging</p>
+				    	<p class='listo'>5. Systems Thinking</p>
+
+				</p>
+				</ul>
+		    <br>
+
+		    <p>
+		    	<h3>Grammar and Syntax</h3> 
+		    	<ul class="list">
+			        <li>Computers need special languages because they cannot think for themselves to interpret things like humans do. They need a very exact language.</li>
+			        <li>Computers use a form called "Backus-Naur Form"(BNF). This is very precise.</li>
+			        <li>Computers use the form: &lt;Non-terminal&gt; = &lt;replacement&gt;</li>
+			         <li>People used to think computers could only do math but they can do a <b><em>LOT</em></b> more than that!</li>
+			    </ul>
+		  	<br>
+	</div>
+</div>
+
+
+<div class="lesson">
+		<h2 id="lesson5">Lesson 5: Variables and Strings</h2>
+			
+		    <p>
+		   		<h3>Variables</h3>
+		   		<ul class="list">
+				    <li>Variables can be assigned any meaning we want. They can be assigned the meaning of numbers, lists of numbers, formulas, words, phrases, even huge pages of text or code. 
+				    <li> Variables conveniently allow long complex statements to be contained in just a word or letter.
+				    <li>Python is an interpreter and the Python language is interpreted to make sense to the computer so it knows what to do.
+				</p>
+				</ul>
+		    <br>
+
+		    <p>
+		    	<h3>Strings</h3> 
+		    	<ul class="list">
+			        <li>Strings are characters surrounded by quotes.</li>
+			        <li>Strings can be added together but they cannot be added to numbers.</li>
+			        <li>Two important features of strings is that they can be searched and they can be indexed.</li>
+			         <li><b>x.find('a')</b> will find the first occurance of 'a' in x.</li>
+			    </ul>
+		  	<br>
+	</div>
+</div>
+
+
+<div class="lesson">
+		<h2 id="lesson6">Lesson 6: Funcitons</h2>
+			<div>
+					<ul class="list">
+					<li>Functions take in inputs and create outputs</li>
+					<li>'return' - (like the answer) what the function spits out</li>
+					<li>Functions have to be made (defined) before they can be used.</li>
+					<li>Calling a function means using the function.</li>
+					<li>Here is a function that multiples a list of numbers:</li>
+						<p class='listo'>def product_list(n):</p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp; x=0 </p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp;result=1 </p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp;while x&lt;len(n): </p>
+				    	<p class='listo'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result=result*n[x]</p>
+				    	<p class='listo'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x=x+1</p>
+				    	<p class='listo'>&nbsp;&nbsp;&nbsp;&nbsp;return result</p>
+
+					</ul>
+		    <br>
+	</div>
+</div>
+
+
+<div class="lesson">
+		<h2 id="lesson7">Lesson 7: Decisions and Repetition</h2>
+			<div>
+					<ul class="list">
+					<li>Functions can use comparisons < and ></li>
+					<li> <b>!=</b> means not equal</li>
+					<li> <b>==</b> means equal (like in math, not assignment like in Python)</li>
+					<li> <b>if</b> statements can be used in functions for example:</li>
+						<p class='listo'>def bigger (a,b):</p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp; if a>b: </p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a </p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp;return b</p>
+					</ul>
+		    <br>
+	</div>
+</div>
+
+
+
+<div class="lesson">
+		<h2 id="lesson8">Lesson 8: Structured Data</h2>
+			<div>
+					<ul class="list">
+					<li>Lists are another form used in Python. They are written like so: p=[0,1,2,’a’,’aba’,[a,b,1]]</li>
+					<li>Notice that lists can contain both letters or numbers. There can also be lists within the lists.</li>
+					<li>Lists, unlike strings, can be manipulated</li>
+					<li>Loops can be used for lists similar to how while is used for strings.</li>
+					<li>Here is an example:</li>
+						<p class='listo'>def greatest(p):</p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp; big=0 </p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp; for i in p: </p>
+				    	<p class='listo'> &nbsp;&nbsp;&nbsp;&nbsp; if i>big: </p>
+				    	<p class='listo'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; big=i </p>
+				    	<p class='listo'>&nbsp;&nbsp;&nbsp;&nbsp; return big </p>
+
+					</ul>
+		    <br>
+	</div>
+</div>
+
+
+
+
+
 			<div class="lesson">
 				
 				<h1 id="resources">Cool Resources</h1>
@@ -182,7 +318,10 @@
 				<li><a href="http://jsfiddle.net/WW3bh/">JSFiddle</a> (text editor which allows for JavaScript)</li>
 				<li><a href="http://validator.w3.org/#validate_by_input">Markup Validation</a></li>
 				<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation</a></li>
+				<li><a href="https://www.udacity.com/course/viewer#!/c-none/l-300029886/e-299271807/m-299271808">Python Playground</a></li>
 				</ul>
+
+				
 			</div>	
 </body>	
 </html>
